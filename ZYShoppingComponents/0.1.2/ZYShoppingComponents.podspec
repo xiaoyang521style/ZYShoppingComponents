@@ -40,8 +40,8 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'SDWebImage'
-   s.dependency 'MJExtension'
-   s.dependency 'ZYMediator'
-   s.dependency 'ZYUIComponents'
-   s.dependency 'ZYUnderlyingComponents'
+  s.dependency 'MJExtension'
+  s.dependency 'ZYMediator'
+  s.dependency 'ZYUIComponents'
+  s.dependency 'ZYUnderlyingComponents'
 end
