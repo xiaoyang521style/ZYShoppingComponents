@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYShoppingComponents'
-  s.version          = '0.1.0'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of ZYShoppingComponents.'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,21 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ZYShoppingComponents/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ZYShoppingComponents' => ['ZYShoppingComponents/Assets/*.png']
-  # }
+  # ――― 资源路径 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+   # 指定资源,比如xib,图片等资源都是
+  
+   
+   s.resource_bundles = {
+     'ZYShoppingComponents' => ['ZYShoppingComponents/Classes/**/*.{storyboard,xib,cer,json,plist}','ZYShoppingComponents/Assets/*.{bundle,xcassets,imageset,png}']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+#  s.dependency 'SDWebImage'
+#  s.dependency 'MJExtension'
+#  s.dependency 'ZYMediator'
+#  s.dependency 'ZYUIComponents'
+#  s.dependency 'ZYUnderlyingComponents'
+ 
 end

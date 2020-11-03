@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		241EE27E071127D1604E8CDF /* Pods_ZYShoppingComponents_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D8DE56DD0E1E206F1A684C /* Pods_ZYShoppingComponents_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		F2CFFFFC005785354D1B5416 /* Pods_ZYShoppingComponents_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57165D13BB2347C18984525 /* Pods_ZYShoppingComponents_Tests.framework */; };
+		9AD1F383BD22FCDC0948747D /* Pods_ZYShoppingComponents_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46257AC201286B8073B2259 /* Pods_ZYShoppingComponents_Example.framework */; };
+		AEDC16361312FF21715AA647 /* Pods_ZYShoppingComponents_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40C4E972C9B7B591690C8D8 /* Pods_ZYShoppingComponents_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,12 +61,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7438F085C44D4D6BBF3596CE /* Pods-ZYShoppingComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYShoppingComponents_Example.release.xcconfig"; path = "Target Support Files/Pods-ZYShoppingComponents_Example/Pods-ZYShoppingComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9E677B9E7E53AE82530B71FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B57165D13BB2347C18984525 /* Pods_ZYShoppingComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYShoppingComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9D8DE56DD0E1E206F1A684C /* Pods_ZYShoppingComponents_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYShoppingComponents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E677B9E7E53AE82530B71FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A40C4E972C9B7B591690C8D8 /* Pods_ZYShoppingComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYShoppingComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46257AC201286B8073B2259 /* Pods_ZYShoppingComponents_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYShoppingComponents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABCC63FA406EFB3FCB04E52 /* Pods-ZYShoppingComponents_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYShoppingComponents_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZYShoppingComponents_Example/Pods-ZYShoppingComponents_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D0AC9F429D02FEE99DF3DB3F /* ZYShoppingComponents.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZYShoppingComponents.podspec; path = ../ZYShoppingComponents.podspec; sourceTree = "<group>"; };
-		EFC3E24DA2C55CF147AE0CF2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D0AC9F429D02FEE99DF3DB3F /* ZYShoppingComponents.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYShoppingComponents.podspec; path = ../ZYShoppingComponents.podspec; sourceTree = "<group>"; };
+		EFC3E24DA2C55CF147AE0CF2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				241EE27E071127D1604E8CDF /* Pods_ZYShoppingComponents_Example.framework in Frameworks */,
+				9AD1F383BD22FCDC0948747D /* Pods_ZYShoppingComponents_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				F2CFFFFC005785354D1B5416 /* Pods_ZYShoppingComponents_Tests.framework in Frameworks */,
+				AEDC16361312FF21715AA647 /* Pods_ZYShoppingComponents_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C9D8DE56DD0E1E206F1A684C /* Pods_ZYShoppingComponents_Example.framework */,
-				B57165D13BB2347C18984525 /* Pods_ZYShoppingComponents_Tests.framework */,
+				A46257AC201286B8073B2259 /* Pods_ZYShoppingComponents_Example.framework */,
+				A40C4E972C9B7B591690C8D8 /* Pods_ZYShoppingComponents_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +193,6 @@
 				0E8462F2673D6BAE2078A780 /* Pods-ZYShoppingComponents_Tests.debug.xcconfig */,
 				21C80E59C2F180EA3392DA55 /* Pods-ZYShoppingComponents_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				9846DC26E61AC2FC803B6DF2 /* [CP] Embed Pods Frameworks */,
+				CB2C3B5221FC2A850D7F213D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,7 +226,7 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				88B8B0D9FD6A27DEA20DA900 /* [CP] Embed Pods Frameworks */,
+				266E58FD025C7D120A09B7E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -296,7 +296,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		88B8B0D9FD6A27DEA20DA900 /* [CP] Embed Pods Frameworks */ = {
+		266E58FD025C7D120A09B7E5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,18 +320,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZYShoppingComponents_Tests/Pods-ZYShoppingComponents_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9846DC26E61AC2FC803B6DF2 /* [CP] Embed Pods Frameworks */ = {
+		CB2C3B5221FC2A850D7F213D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZYShoppingComponents_Example/Pods-ZYShoppingComponents_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ZYMediator/ZYMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/ZYShoppingComponents/ZYShoppingComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/ZYUIComponents/ZYUIComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/ZYUnderlyingComponents/ZYUnderlyingComponents.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYShoppingComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYUIComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYUnderlyingComponents.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -522,7 +532,25 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZYShoppingComponents/ZYShoppingComponents-Prefix.pch";
 				INFOPLIST_FILE = "ZYShoppingComponents/ZYShoppingComponents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"ZYMediator\"",
+					"-framework",
+					"\"ZYShoppingComponents\"",
+					"-framework",
+					"\"ZYUIComponents\"",
+					"-framework",
+					"\"ZYUnderlyingComponents\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -538,7 +566,25 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZYShoppingComponents/ZYShoppingComponents-Prefix.pch";
 				INFOPLIST_FILE = "ZYShoppingComponents/ZYShoppingComponents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"ZYMediator\"",
+					"-framework",
+					"\"ZYShoppingComponents\"",
+					"-framework",
+					"\"ZYUIComponents\"",
+					"-framework",
+					"\"ZYUnderlyingComponents\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

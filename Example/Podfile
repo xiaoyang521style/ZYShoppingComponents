@@ -3,7 +3,13 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'ZYShoppingComponents_Example' do
+  pod 'ZYMediator'
+  pod 'ZYUIComponents'
+  pod 'ZYUnderlyingComponents'
+  pod 'MJExtension'
+  pod 'SDWebImage'
   pod 'ZYShoppingComponents', :path => '../'
+ 
 
   target 'ZYShoppingComponents_Tests' do
     inherit! :search_paths

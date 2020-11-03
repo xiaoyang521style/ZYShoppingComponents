@@ -7,7 +7,8 @@
 //
 
 #import "ZYViewController.h"
-
+#import "ZYShoppingCarViewController.h"
+#import <ZYMediator+ZYShoppingCartModule.h>
 @interface ZYViewController ()
 
 @end
@@ -20,6 +21,17 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)goShoppingCar:(id)sender {
+    
+    UIViewController *VC = [[ZYMediator sharedInstance]ShoppingCartModule_viewControllerWithParam:@{} callback:^(NSString * _Nonnull result) {
+        NSLog(@"resultA: --- %@", result);
+    }];
+    [self.navigationController pushViewController:VC animated:YES];
+    
+//    ZYShoppingCarViewController *car = [[ZYShoppingCarViewController alloc]init];
+//    [self.navigationController pushViewController:car animated:YES];
+    
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

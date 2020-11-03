@@ -1,0 +1,6 @@
+framework module ZYShoppingComponents {
+  umbrella header "ZYShoppingComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

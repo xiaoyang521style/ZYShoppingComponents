@@ -1,0 +1,6 @@
+framework module ZYMediator {
+  umbrella header "ZYMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

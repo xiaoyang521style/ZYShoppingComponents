@@ -1,0 +1,6 @@
+framework module ZYUnderlyingComponents {
+  umbrella header "ZYUnderlyingComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

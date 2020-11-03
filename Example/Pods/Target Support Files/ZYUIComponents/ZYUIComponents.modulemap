@@ -1,0 +1,6 @@
+framework module ZYUIComponents {
+  umbrella header "ZYUIComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

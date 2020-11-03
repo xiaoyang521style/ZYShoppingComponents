@@ -1,0 +1,69 @@
+PODS:
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MJExtension (3.2.2)
+  - SDWebImage (5.9.4):
+    - SDWebImage/Core (= 5.9.4)
+  - SDWebImage/Core (5.9.4)
+  - Specta (1.0.7)
+  - ZYMediator (0.1.6)
+  - ZYShoppingComponents (0.1.2):
+    - MJExtension
+    - SDWebImage
+    - ZYMediator
+    - ZYUIComponents
+    - ZYUnderlyingComponents
+  - ZYUIComponents (0.1.0)
+  - ZYUnderlyingComponents (0.1.2)
+
+DEPENDENCIES:
+  - Expecta
+  - "Expecta+Snapshots"
+  - FBSnapshotTestCase
+  - MJExtension
+  - SDWebImage
+  - Specta
+  - ZYMediator
+  - ZYShoppingComponents (from `../`)
+  - ZYUIComponents
+  - ZYUnderlyingComponents
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - MJExtension
+    - SDWebImage
+    - Specta
+    - ZYMediator
+    - ZYUIComponents
+    - ZYUnderlyingComponents
+
+EXTERNAL SOURCES:
+  ZYShoppingComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  ZYMediator: d550c232a5342b7aadcdf441942f933a671a4b2d
+  ZYShoppingComponents: 4a8026313b9b249ab2bebe5172382a0b0a686e52
+  ZYUIComponents: 610816ffbd042ec4419730feaad609185144aa15
+  ZYUnderlyingComponents: c7fb8b639e357342658571c19aea3d1018147279
+
+PODFILE CHECKSUM: b397641ba8a4231b14cb1ec99d1ca8425b356ebb
+
+COCOAPODS: 1.10.0
