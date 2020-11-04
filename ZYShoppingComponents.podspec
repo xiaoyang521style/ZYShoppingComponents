@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYShoppingComponents'
-  s.version          = '0.1.5'
+  s.version          = '0.1.7'
   s.summary          = 'A short description of ZYShoppingComponents.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZYShoppingComponents/Classes/**/*'
+  s.source_files = 'ZYShoppingComponents/Classes/**/*.{h,m}'
   
   # ――― 资源路径 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
    # 指定资源,比如xib,图片等资源都是

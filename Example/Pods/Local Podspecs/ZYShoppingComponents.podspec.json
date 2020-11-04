@@ -1,6 +1,6 @@
 {
   "name": "ZYShoppingComponents",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "summary": "A short description of ZYShoppingComponents.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaoyang521style/ZYShoppingComponents",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/xiaoyang521style/ZYShoppingComponents.git",
-    "tag": "0.1.5"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZYShoppingComponents/Classes/**/*",
+  "source_files": "ZYShoppingComponents/Classes/**/*.{h,m}",
   "resource_bundles": {
     "ZYShoppingComponents": [
       "ZYShoppingComponents/Classes/**/*.{storyboard,xib,cer,json,plist}",

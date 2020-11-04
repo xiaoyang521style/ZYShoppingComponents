@@ -36,7 +36,7 @@ PODS:
   - SDWebImage/Core (5.9.4)
   - Specta (1.0.7)
   - ZYMediator (0.1.6)
-  - ZYShoppingComponents (0.1.5):
+  - ZYShoppingComponents (0.1.7):
     - AFNetworking (~> 2.3)
     - MJExtension
     - SDWebImage
@@ -84,7 +84,7 @@ SPEC CHECKSUMS:
   SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
   ZYMediator: d550c232a5342b7aadcdf441942f933a671a4b2d
-  ZYShoppingComponents: 11e9fad63640854d3c178333744ecc7bfe6de1bd
+  ZYShoppingComponents: fb03628ce4b850b5873445f2808fd3dca01c5240
   ZYUIComponents: 610816ffbd042ec4419730feaad609185144aa15
   ZYUnderlyingComponents: c7fb8b639e357342658571c19aea3d1018147279
 
