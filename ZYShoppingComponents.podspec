@@ -34,18 +34,16 @@ TODO: Add long description of the pod here.
   
   # ――― 资源路径 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
    # 指定资源,比如xib,图片等资源都是
-  
-   
-   s.resource_bundles = {
-     'ZYShoppingComponents' => ['ZYShoppingComponents/Classes/**/*.{storyboard,xib,cer,json,plist}','ZYShoppingComponents/Assets/*.{bundle,xcassets,imageset,png}']
-   }
+  s.resource_bundles = {
+    'ZYShoppingComponents' => ['ZYShoppingComponents/Classes/**/*.{storyboard,xib,cer,json,plist}', 'ZYShoppingComponents/Assets/*.{xcassets,imageset,png}']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 #  s.dependency 'SDWebImage'
 #  s.dependency 'MJExtension'
-#  s.dependency 'ZYMediator'
+  s.dependency 'ZYMediator'
 #  s.dependency 'ZYUIComponents'
 #  s.dependency 'ZYUnderlyingComponents'
  

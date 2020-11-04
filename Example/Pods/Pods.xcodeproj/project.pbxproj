@@ -548,7 +548,7 @@
 		077124F0F143D885D62333C11F63CCF1 /* SDImageCachesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManager.m; path = SDWebImage/Core/SDImageCachesManager.m; sourceTree = "<group>"; };
 		077711845B1F41191AA1493A1A8A87DC /* ZYShoppingComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYShoppingComponents-dummy.m"; sourceTree = "<group>"; };
 		08E0C9EFB00D4A72332FA0F821CBBE77 /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
-		08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A54335BC09029116D3B52A14EE2F80E /* ZYShoppingCarModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYShoppingCarModel.h; sourceTree = "<group>"; };
 		0BE6F42043ACB2969C0C1B0C5A86F507 /* SDWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.release.xcconfig; sourceTree = "<group>"; };
 		0CCD97997BE5315B7409090DD7185081 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
@@ -558,7 +558,7 @@
 		0EE10688D231888F2F479B529A01A5A3 /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/Core/SDAnimatedImageRep.h; sourceTree = "<group>"; };
 		0F0A2646BBBB3B2B77C0D6684AF33A18 /* SDImageCachesManagerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManagerOperation.m; path = SDWebImage/Private/SDImageCachesManagerOperation.m; sourceTree = "<group>"; };
 		10A778E64625547072071FDEBB143016 /* SDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWeakProxy.h; path = SDWebImage/Private/SDWeakProxy.h; sourceTree = "<group>"; };
-		11389B4E53C7E86B667207C8194367E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		11389B4E53C7E86B667207C8194367E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		115D8DAC20AC8B12B6BD5CA6AF7E5733 /* Target_ZYShoppingCartMoudel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_ZYShoppingCartMoudel.h; sourceTree = "<group>"; };
 		118CCCE9E999E7E2FFB775ADABB8F9B7 /* UIColor+ZYHex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ZYHex.m"; path = "UnderlyingComponents/Classes/Color/UIColor+ZYHex.m"; sourceTree = "<group>"; };
 		135F98AB290E55D981D94FD016693535 /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
@@ -569,7 +569,7 @@
 		146201E5ED231519A8883F749975DC8E /* ZYMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ZYMediator+HandyTools.m"; path = "ZYMediator/Classes/ZYMediator+HandyTools.m"; sourceTree = "<group>"; };
 		14C6FF1A05533AC9E024100CFD85C879 /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
 		156D2DD1FC9FCBCA2D2A25B328DFBB17 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/Core/NSData+ImageContentType.h"; sourceTree = "<group>"; };
-		15B13B063AA97C48C9010C298AECBDDA /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta.framework; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B13B063AA97C48C9010C298AECBDDA /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1617DB8B15DDDD70B4D1F0EEB358D28D /* SDGraphicsImageRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDGraphicsImageRenderer.m; path = SDWebImage/Core/SDGraphicsImageRenderer.m; sourceTree = "<group>"; };
 		166CFEF974BC6DF29826A85D4B4A234B /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
 		17791A3C08E03F722BAF59CE2392E0E1 /* ZYCommodityModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYCommodityModel.m; sourceTree = "<group>"; };
@@ -592,13 +592,13 @@
 		1F22DCBD63E3C1A6A3E3B3B065E649E7 /* overseas.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = overseas.png; sourceTree = "<group>"; };
 		1FE5BF87D3748540501B772747409B98 /* ZYUnderlyingComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYUnderlyingComponents.debug.xcconfig; sourceTree = "<group>"; };
 		208030369ACCA55DC7B523F773BC8886 /* SDWebImageDownloaderRequestModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderRequestModifier.m; path = SDWebImage/Core/SDWebImageDownloaderRequestModifier.m; sourceTree = "<group>"; };
-		20B68C9269B45825E82F4F5ECE0EB27C /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta_Snapshots.framework; path = "Expecta+Snapshots.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B68C9269B45825E82F4F5ECE0EB27C /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		210D1B06E772064249F9114368A069B6 /* SDWebImageCacheKeyFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheKeyFilter.h; path = SDWebImage/Core/SDWebImageCacheKeyFilter.h; sourceTree = "<group>"; };
 		214CDE8C171AAB2EEE3BCDB119211CDA /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		2290501846E375618DBA9F9A0D1F1B03 /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
 		229FE0282E7691119D34F9FC1691E3E0 /* ZYMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYMediator-prefix.pch"; sourceTree = "<group>"; };
-		242CC911B0554F4253BB2DDE0AB97B01 /* ZYUIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYUIComponents.framework; path = ZYUIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		25A4D1AFB18664A55B3FEAB268179181 /* Pods_ZYShoppingComponents_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYShoppingComponents_Example.framework; path = "Pods-ZYShoppingComponents_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		242CC911B0554F4253BB2DDE0AB97B01 /* ZYUIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZYUIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A4D1AFB18664A55B3FEAB268179181 /* Pods_ZYShoppingComponents_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYShoppingComponents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AD58A1F60F465D3B6B757F15242FA2 /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/Core/SDWebImageTransition.m; sourceTree = "<group>"; };
 		2698634D0EA9507BBC935CD537B5AE8E /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		275CB53918523153DD1E5BEB79365DE1 /* SDDisplayLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDisplayLink.m; path = SDWebImage/Private/SDDisplayLink.m; sourceTree = "<group>"; };
@@ -607,7 +607,7 @@
 		2986F4A1A8104CE1AFB76F20BB798DE6 /* Pods-ZYShoppingComponents_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYShoppingComponents_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		29DDB455BEDE73C1F667147D6F49960B /* SDImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoder.h; path = SDWebImage/Core/SDImageCoder.h; sourceTree = "<group>"; };
 		2A22A6218F39D215447C0A1657A564BF /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
-		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B80AE6F059EE1F3F1E3D8EC13470DE2 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		2C8E2511E4BA9D3FC68DBCD961D90E56 /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		2CA942C3735B4497E8B7E6C3A65E19AD /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
@@ -638,7 +638,7 @@
 		399CF0D4321C2EE041026C12C44D5E70 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		3C0043FC974144376928FBB76DFEEDE9 /* ic_cb_disable.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_cb_disable.png; sourceTree = "<group>"; };
 		3C2C03C6B9E5A2F3F423EAC28C1C5DDF /* SPTExcludeGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExcludeGlobalBeforeAfterEach.h; path = Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
-		3CA3AC3924BC70FC07BA35FE1435918F /* Pods_ZYShoppingComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYShoppingComponents_Tests.framework; path = "Pods-ZYShoppingComponents_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA3AC3924BC70FC07BA35FE1435918F /* Pods_ZYShoppingComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYShoppingComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1ACA50C9D4DAD3E86B134BC1BB04F2 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
 		3E3850093AE3C809AD07EFE33C37F67F /* SDImageTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageTransformer.m; path = SDWebImage/Core/SDImageTransformer.m; sourceTree = "<group>"; };
 		3E6B95E2D0C39938D7E152CC4CC7122D /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
@@ -706,7 +706,7 @@
 		5BA470F574A4393A4A540A8BB343193D /* Pods-ZYShoppingComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYShoppingComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5C00E1423971DC16B9B2E0B9B00BFAF0 /* Expecta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Expecta.modulemap; sourceTree = "<group>"; };
 		5C33306EF2A2179EFA398FEA84BABC61 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/Core/UIImageView+WebCache.h"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C772610E9F42F63441BF05D37051E28 /* SDImageCachesManagerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManagerOperation.h; path = SDWebImage/Private/SDImageCachesManagerOperation.h; sourceTree = "<group>"; };
 		5CFFCA9CFF5A2D61A13A675AE7583953 /* ExpectaObject+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExpectaObject+FBSnapshotTest.h"; sourceTree = "<group>"; };
 		5D2623B633FBD011461F4290729E2B9E /* SDAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImage.h; path = SDWebImage/Core/SDAnimatedImage.h; sourceTree = "<group>"; };
@@ -764,8 +764,8 @@
 		7DBC03962CC1E7586655BB3A0F692031 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
 		7E130237E50B01DFD03E93C64A2A955F /* MJExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.release.xcconfig; sourceTree = "<group>"; };
 		7E59B7C9760F1BD4A717AD56FC45DB65 /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
-		7E5A0FEAA2F53BEC76C75937E2300F3E /* ZYShoppingComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYShoppingComponents.framework; path = ZYShoppingComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E5F78548DF69B7BE9A17E5B2E06A131 /* ZYMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYMediator.framework; path = ZYMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5A0FEAA2F53BEC76C75937E2300F3E /* ZYShoppingComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZYShoppingComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5F78548DF69B7BE9A17E5B2E06A131 /* ZYMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZYMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6562C2A11FF6F41C3EC1665741DDF8 /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
 		7F96D067B861ABEFAB1BABF000D14E59 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		802931FBD8B8FA52C115825716E0E0F9 /* SDImageIOAnimatedCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoder.h; path = SDWebImage/Core/SDImageIOAnimatedCoder.h; sourceTree = "<group>"; };
@@ -818,7 +818,7 @@
 		9C2F4C8E732001636857F76AB0FAA255 /* SDAnimatedImagePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImagePlayer.h; path = SDWebImage/Core/SDAnimatedImagePlayer.h; sourceTree = "<group>"; };
 		9CC89BF6C8894F0B38632050D7C56F01 /* Pods-ZYShoppingComponents_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYShoppingComponents_Tests-dummy.m"; sourceTree = "<group>"; };
 		9D70743F74BF6CFFD4B9AD2FEA3B4939 /* SDAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageView.h; path = SDWebImage/Core/SDAnimatedImageView.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DAB441AFDF39C7BC451A34D1EBD46BE /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
 		9DCF4555E5EA63495EEA0611D3A86079 /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
 		9E83C68AF2C87764D0C1D71242DDED51 /* ZYShoppingCartHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYShoppingCartHeaderView.h; sourceTree = "<group>"; };
@@ -839,8 +839,8 @@
 		AC60EA8DB8ADA3497FFD59430100B968 /* SDFileAttributeHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDFileAttributeHelper.m; path = SDWebImage/Private/SDFileAttributeHelper.m; sourceTree = "<group>"; };
 		AC860AFD41D8BD75F7F1056864D93C6A /* SDWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImage.h; path = WebImage/SDWebImage.h; sourceTree = "<group>"; };
 		AE757E01718FBE484D8ECD58A0F5A518 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/Core/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		AF93A1DB18E3AD19B43BBD15FD03B872 /* ZYUnderlyingComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYUnderlyingComponents.framework; path = ZYUnderlyingComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF93A1DB18E3AD19B43BBD15FD03B872 /* ZYUnderlyingComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZYUnderlyingComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B23B60E87F7EAE1228E278F9F06A1D /* Pods-ZYShoppingComponents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYShoppingComponents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B11EDF1DBB8D08DEFB53B85131F6507D /* Target_ZYShoppingCartMoudel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_ZYShoppingCartMoudel.m; sourceTree = "<group>"; };
 		B1A6495B73FC000ECF57042D5523E12F /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
@@ -877,7 +877,7 @@
 		BF32BE3479D6B326004EA8A18F7435AB /* ZYShoppingCarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZYShoppingCarView.m; sourceTree = "<group>"; };
 		C07D1DF837BF39B5C09669C7B38E23CB /* SDImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGIFCoder.h; path = SDWebImage/Core/SDImageGIFCoder.h; sourceTree = "<group>"; };
 		C0C7DFC63AD84AC31BA3E8F636D20275 /* ZYMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYMediator-dummy.m"; sourceTree = "<group>"; };
-		C147C79BC061AD59C4E32157838DE8F7 /* ZYShoppingComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZYShoppingComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C147C79BC061AD59C4E32157838DE8F7 /* ZYShoppingComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZYShoppingComponents.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		C14E8A8D388B55D9B3298B583E60468D /* ZYUnderlyingComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZYUnderlyingComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C45C96D1D1C8695BDF05E930EBDDF5 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/Core/SDWebImageOperation.h; sourceTree = "<group>"; };
 		C2D1FD0CA0A317775B386917880F3BF4 /* SDWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.debug.xcconfig; sourceTree = "<group>"; };
@@ -921,7 +921,7 @@
 		D91F1AA01523F6283349A17B53CE2CCD /* ZYShoppingCarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZYShoppingCarViewController.h; sourceTree = "<group>"; };
 		D9ED660FDBAE686258466032E523CAFD /* SDImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoader.m; path = SDWebImage/Core/SDImageLoader.m; sourceTree = "<group>"; };
 		DA49A5A7CBB1237D3D12084FBFC36438 /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
-		DB5B3E5ADD5170C61E2FA96E041071FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DB5B3E5ADD5170C61E2FA96E041071FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DB8CB585D784B0156B05DA4D1A07A084 /* Expecta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.release.xcconfig; sourceTree = "<group>"; };
 		DBD256A3FE57696BDB22492764733B5E /* ZYShoppingComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYShoppingComponents.release.xcconfig; sourceTree = "<group>"; };
 		DC1E695B63BD78B7502644E31B92F212 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
@@ -939,7 +939,7 @@
 		E3E85AC40FD38067D90D2C2A0FB37430 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
 		E4412A30AE263DC9790458277F2EC86C /* Pods-ZYShoppingComponents_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYShoppingComponents_Example-umbrella.h"; sourceTree = "<group>"; };
 		E5AD028F71B532B0AA25898E83D6CA83 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/Core/SDImageCacheConfig.m; sourceTree = "<group>"; };
-		E669A7505D1012150261288535D632F3 /* ZYShoppingComponents.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZYShoppingComponents.bundle; path = "ZYShoppingComponents-ZYShoppingComponents.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E669A7505D1012150261288535D632F3 /* ZYShoppingComponents.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYShoppingComponents.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A2571B8281A3A1AFADB6F8B567A17F /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
 		E7DC0F8CBC451CA5A7D6665ED16C2CD7 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
 		E8AA5544531032903B8B574594AB097A /* SDWebImageDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDefine.m; path = SDWebImage/Core/SDWebImageDefine.m; sourceTree = "<group>"; };
@@ -1256,7 +1256,6 @@
 				E6A2571B8281A3A1AFADB6F8B567A17F /* XCTestCase+Specta.m */,
 				70FF44395F3E126A83B5BB45C0BE2E3E /* Support Files */,
 			);
-			name = Specta;
 			path = Specta;
 			sourceTree = "<group>";
 		};
@@ -1348,7 +1347,6 @@
 				32C6BCC45C49D350CD495CD5B36A271E /* ReplaceMe.m */,
 				E8453C55860FF12BB0408CAAD1DDB806 /* Support Files */,
 			);
-			name = ZYUIComponents;
 			path = ZYUIComponents;
 			sourceTree = "<group>";
 		};
@@ -1423,7 +1421,6 @@
 				0A12E919C782872A30B0C4FE0568FAAE /* Support Files */,
 				FDE9D65273CE71FA9F238DB201781F7B /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -1437,7 +1434,6 @@
 				146201E5ED231519A8883F749975DC8E /* ZYMediator+HandyTools.m */,
 				EE575263B83EAECE6DA1EA441852AFE2 /* Support Files */,
 			);
-			name = ZYMediator;
 			path = ZYMediator;
 			sourceTree = "<group>";
 		};
@@ -1447,7 +1443,6 @@
 				CB061E354D8123DE6B4BEC7298B48A46 /* Core */,
 				686403DCBC70819534D19601231CA3DF /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -1460,7 +1455,6 @@
 				A950BDFC9AA9AED79E76F10ECE125BAA /* EXPMatchers+FBSnapshotTest.m */,
 				781357EEE4FBF0D74FA07931B62BF7C7 /* Support Files */,
 			);
-			name = "Expecta+Snapshots";
 			path = "Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
@@ -1522,7 +1516,6 @@
 				CAF7D1DB2A8FE3C81730F9C7350D92F2 /* NSString+MJExtension.m */,
 				49D5556933C94E8AEE7346C4450F7B8F /* Support Files */,
 			);
-			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -1604,7 +1597,6 @@
 				7F6562C2A11FF6F41C3EC1665741DDF8 /* NSValue+Expecta.m */,
 				F09BA03DE7D4936DEFFAC233D1E3DBBE /* Support Files */,
 			);
-			name = Expecta;
 			path = Expecta;
 			sourceTree = "<group>";
 		};
@@ -1870,7 +1862,6 @@
 				118CCCE9E999E7E2FFB775ADABB8F9B7 /* UIColor+ZYHex.m */,
 				BEC7EF801A80FE6521835A233878C5BA /* Support Files */,
 			);
-			name = ZYUnderlyingComponents;
 			path = ZYUnderlyingComponents;
 			sourceTree = "<group>";
 		};
@@ -3442,8 +3433,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
