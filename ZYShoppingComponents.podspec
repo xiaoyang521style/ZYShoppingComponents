@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYShoppingComponents'
-  s.version          = '0.1.3'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of ZYShoppingComponents.'
 
 # This description is used to generate tags and improve search results.
@@ -39,12 +39,12 @@ TODO: Add long description of the pod here.
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-#  s.dependency 'SDWebImage'
-#  s.dependency 'MJExtension'
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SDWebImage'
+  s.dependency 'MJExtension'
   s.dependency 'ZYMediator'
-#  s.dependency 'ZYUIComponents'
-#  s.dependency 'ZYUnderlyingComponents'
+  s.dependency 'ZYUIComponents'
+  s.dependency 'ZYUnderlyingComponents'
  
 end
