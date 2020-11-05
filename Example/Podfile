@@ -8,6 +8,7 @@ target 'ZYShoppingComponents_Example' do
   pod 'ZYUnderlyingComponents'
   pod 'MJExtension'
   pod 'SDWebImage'
+  pod 'ReactiveObjC'
   pod 'ZYShoppingComponents', :path => '../'
  
 

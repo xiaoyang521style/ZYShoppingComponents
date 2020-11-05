@@ -31,14 +31,16 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - MJExtension (3.2.2)
+  - ReactiveObjC (3.1.1)
   - SDWebImage (5.9.4):
     - SDWebImage/Core (= 5.9.4)
   - SDWebImage/Core (5.9.4)
   - Specta (1.0.7)
   - ZYMediator (0.1.6)
-  - ZYShoppingComponents (0.1.7):
+  - ZYShoppingComponents (0.1.8):
     - AFNetworking (~> 2.3)
     - MJExtension
+    - ReactiveObjC
     - SDWebImage
     - ZYMediator
     - ZYUIComponents
@@ -51,6 +53,7 @@ DEPENDENCIES:
   - "Expecta+Snapshots"
   - FBSnapshotTestCase
   - MJExtension
+  - ReactiveObjC
   - SDWebImage
   - Specta
   - ZYMediator
@@ -65,6 +68,7 @@ SPEC REPOS:
     - "Expecta+Snapshots"
     - FBSnapshotTestCase
     - MJExtension
+    - ReactiveObjC
     - SDWebImage
     - Specta
     - ZYMediator
@@ -81,13 +85,14 @@ SPEC CHECKSUMS:
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
   ZYMediator: d550c232a5342b7aadcdf441942f933a671a4b2d
-  ZYShoppingComponents: fb03628ce4b850b5873445f2808fd3dca01c5240
+  ZYShoppingComponents: d14ee2531cf6061ecbdd0146d1421175fee17e92
   ZYUIComponents: 610816ffbd042ec4419730feaad609185144aa15
   ZYUnderlyingComponents: c7fb8b639e357342658571c19aea3d1018147279
 
-PODFILE CHECKSUM: b397641ba8a4231b14cb1ec99d1ca8425b356ebb
+PODFILE CHECKSUM: 84f5bb4d9e7cad2dabbc1a23479b4b53ec71f79a
 
 COCOAPODS: 1.10.0
