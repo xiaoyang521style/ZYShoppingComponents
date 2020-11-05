@@ -17,8 +17,27 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic,strong)UIToolbar *toolbar;
 @property (nonatomic , strong) UIBarButtonItem *previousBarButton;
-@property(nonatomic,strong)NSMutableArray *carDataArrList;
+
 @property(nonatomic,assign)BOOL isEdit;
+
+
+/**
+ 绑定viewModel
+ */
+- (void)bindViewModel:(id)viewModel;
+
+/**
+ 请求网络数据 绑定数据
+ */
+- (void)setupBinding;
+
+/**
+ 设置数据回调，点击事件处理
+ */
+- (void)setupData;
+
+
+
 @end
 
 NS_ASSUME_NONNULL_END

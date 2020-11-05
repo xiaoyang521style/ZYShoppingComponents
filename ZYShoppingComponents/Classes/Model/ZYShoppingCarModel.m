@@ -10,21 +10,6 @@
 
 @implementation ZYShoppingCarModel
 
-- (void)setVm:(ZYShoppingCarViewModel *)vm
-{
-    _vm = vm;
-    [self addObserver:vm forKeyPath:@"isSelect" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:NULL];
-}
--(void)dealloc
-{
-
-    if (_vm) {
-     [self removeObserver:_vm forKeyPath:@"isSelect"];
-
-    }
-    
-    
-}
 
 
 @end

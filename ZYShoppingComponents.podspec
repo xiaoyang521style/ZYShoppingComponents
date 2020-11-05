@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYShoppingComponents'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'A short description of ZYShoppingComponents.'
 
 # This description is used to generate tags and improve search results.
@@ -43,8 +43,10 @@ TODO: Add long description of the pod here.
   s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'SDWebImage'
   s.dependency 'MJExtension'
+  s.dependency 'ReactiveObjC'
   s.dependency 'ZYMediator'
   s.dependency 'ZYUIComponents'
   s.dependency 'ZYUnderlyingComponents'
+  
  
 end

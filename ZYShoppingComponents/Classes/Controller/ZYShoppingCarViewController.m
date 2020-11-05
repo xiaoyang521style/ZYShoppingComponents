@@ -7,10 +7,12 @@
 //
 
 #import "ZYShoppingCarViewController.h"
+#import "ZYShoppingCarViewModel.h"
 #import "ZYShoppingCarView.h"
 @interface ZYShoppingCarViewController ()
 @property(nonatomic, copy)NSDictionary *params;
 @property(nonatomic, copy)void(^callBackBlock) (NSString *);
+@property(nonatomic,strong)ZYShoppingCarViewModel *viewModel;
 @end
 
 @implementation ZYShoppingCarViewController
@@ -31,7 +33,9 @@
     ZYShoppingCarView *shoppingCarView =  [[ZYShoppingCarView alloc]initWithController:self frame:self.view.bounds];
     
     [self.view addSubview:shoppingCarView];
-    
+    self.viewModel = [[ZYShoppingCarViewModel alloc]init];
+    [shoppingCarView bindViewModel:self.viewModel];
+    [shoppingCarView setupBinding];
     // Do any additional setup after loading the view.
 }
 

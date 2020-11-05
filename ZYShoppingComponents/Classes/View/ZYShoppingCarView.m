@@ -12,9 +12,10 @@
 #import "ZYShoppingCartHeaderView.h"
 #import "ZYShoppingCarViewModel.h"
 #import "ZYShoppingHeader.h"
+#import <ReactiveObjC/ReactiveObjC.h>
 #import <ZYUnderlyingComponents/UIColor+ZYHex.h>
 @interface ZYShoppingCarView ()<UITableViewDelegate,UITableViewDataSource,ZYShoppingCartEndViewDelegate,ZYShoppingCarCellDelegate>
-@property(nonatomic,strong)ZYShoppingCarViewModel *vm;
+@property(nonatomic,strong)ZYShoppingCarViewModel *viewModel;
 @property(nonatomic, weak) UIViewController *controlller;
 @end
 @implementation ZYShoppingCarView
@@ -35,9 +36,6 @@
 -(void)addSubviews {
     [self addSubview:self.tableView];
     [self addSubview:self.endView];
-    [self initData];
-  
-    
 }
 
 -(void)setControlller:(UIViewController *)controlller {
@@ -53,9 +51,7 @@
 {
     
     _toolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, APPScreenHeight, APPScreenWidth, 44)];
-    // _toolbar.frame = CGRectMake(0, 0, APPScreenWidth, 44);
     [_toolbar setBarStyle:UIBarStyleDefault];
-    
     UIBarButtonItem *flexBarButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
     self.previousBarButton = [[UIBarButtonItem alloc] initWithTitle:@"完成" style:UIBarButtonItemStylePlain target:self action:@selector(previousButtonIsClicked:)];
     NSArray *barButtonItems = @[flexBarButton,self.previousBarButton];
@@ -87,53 +83,39 @@
 
 }
 
-//获取数据
--(void)initData{
-   
-    _vm = [[ZYShoppingCarViewModel alloc]init];
-    _vm.shoppingCarView = self;
-    [_vm initData];
-
-}
-
 
 
 #pragma mark TableViewDelegate,TableViewDataSource
+// 交给ViewModel去实现
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return self.carDataArrList.count;
+    return  [self.viewModel numberOfSections];
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+    return [self.viewModel numberOfRowsInSection:section];
     
-    NSArray *list = [self.carDataArrList objectAtIndex:section];
-    return list.count-1;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    if (section==0) {
-        return 50;
-    }
-    else
-    {
-        return 40;
-    }
+    
+    return [self.viewModel heightForHeaderInSection:section];
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return [ZYShoppingCarCell getHeight];
+    return [self.viewModel heightForRowAtIndexPath:indexPath];
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {
-    return 10;
+    return [self.viewModel heightForFooterInSection:section];
 }
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
-    __weak typeof(ZYShoppingCarViewModel ) *vm = _vm;
-    __weak typeof (NSMutableArray ) *carDataArrList = _carDataArrList;
+    __weak typeof(ZYShoppingCarViewModel ) *vm = self.viewModel;
+    __weak typeof (NSMutableArray ) *carDataArrList = self.viewModel.carDataArrList;
     __weak typeof (UITableView ) *tableViews = _tableView;
-    ZYShoppingCartHeaderView * heardView =[[ZYShoppingCartHeaderView  alloc]initWithFrame:CGRectMake(0, 0, APPScreenWidth, 40) section:section carDataArrList:_carDataArrList block:^(UIButton *bt) {
+    ZYShoppingCartHeaderView * heardView =[[ZYShoppingCartHeaderView  alloc]initWithFrame:CGRectMake(0, 0, APPScreenWidth, 40) section:section carDataArrList:self.viewModel.carDataArrList block:^(UIButton *bt) {
         [vm clickAllBT:carDataArrList bt:bt];
         NSIndexSet *indexSet=[[NSIndexSet alloc]initWithIndex:bt.tag-100];
         [tableViews reloadSections:indexSet withRowAnimation:UITableViewRowAnimationNone];
@@ -158,9 +140,9 @@
         cell = [[ZYShoppingCarCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:shoppingCaridentis tableView:tableView];
         cell.delegate=self;
     }
-    if (self.carDataArrList.count>0) {
+    if (self.viewModel.carDataArrList.count>0) {
         cell.isEdit = self.isEdit;
-        NSArray *list = [self.carDataArrList objectAtIndex:indexPath.section];
+        NSArray *list = [self.viewModel.carDataArrList objectAtIndex:indexPath.section];
         cell.row = indexPath.row+1;
         [cell setModel:[list objectAtIndex:indexPath.row]];
         cell.selectionStyle= UITableViewCellSelectionStyleNone;
@@ -174,15 +156,7 @@
     
     
 }
-#pragma mark 懒加载
 
-- (NSMutableArray *)carDataArrList
-{
-    if (!_carDataArrList) {
-        _carDataArrList = [NSMutableArray array];
-    }
-    return _carDataArrList;
-}
 - (UITableView *)tableView
 {
     if (!_tableView) {
@@ -202,8 +176,6 @@
         _endView = [[ZYShoppingCartEndView alloc]initWithFrame:CGRectMake(0, APPScreenHeight-[ZYShoppingCartEndView getViewHeight], APPScreenWidth, [ZYShoppingCartEndView getViewHeight])];
         _endView.delegate=self;
         _endView.isEdit = _isEdit;
-        
-        
     }
     return _endView;
 }
@@ -213,9 +185,10 @@
     _tableView = nil;
     _tableView.dataSource=nil;
     _tableView.delegate=nil;
-    self.vm = nil;
+    self.viewModel = nil;
     self.endView = nil;
-    self.carDataArrList = nil;
+    //移除该响应者的全部通知
+    [[NSNotificationCenter defaultCenter]  removeObserver:self];
     NSLog(@"ZYShoppingCarView释放了。。。。。");
 }
 #pragma mark ZYShoppingCartEndViewDelegate
@@ -237,7 +210,7 @@
         checked = @"NO";
     }
     
-    [self.vm seletAll:checked select:btselected edit:self.isEdit carDataArrList:_carDataArrList];
+    [self.viewModel seletAll:checked select:btselected edit:self.isEdit];
     [_tableView reloadData];
 }
 
@@ -245,19 +218,19 @@
     if(bt.tag==19)
     {
         //删除
-        [_vm delectSelet:_carDataArrList];
+        [_viewModel delectSelet];
         [_tableView reloadData];
     }
     else if (bt.tag==18)
     {
         //结算
-        [_vm settlement];
+        [_viewModel settlement];
         [_tableView reloadData];
     }
 }
 #pragma mark ZYShoppingCarCellDelegate
 -(void)singleClick:(ZYShoppingCarModel *)models row:(NSInteger )row {
-    [_vm pitchOn:_carDataArrList];
+    [_viewModel pitchOn];
     if (models.type==1) {
         NSIndexSet *indexSet=[[NSIndexSet alloc]initWithIndex:0];
         [_tableView reloadSections:indexSet withRowAnimation:UITableViewRowAnimationNone];
@@ -274,37 +247,14 @@
     self.isEdit = !self.isEdit;
     if (self.isEdit) {
         item.title = @"取消";
-        for (int i=0; i<_carDataArrList.count; i++) {
-            NSArray *list = [_carDataArrList objectAtIndex:i];
-            for (int j = 0; j<list.count-1; j++) {
-                ZYShoppingCarModel *model = [list objectAtIndex:j];
-                if ([model.item_info.sale_state isEqualToString:@"3"]) {
-                    model.isSelect=NO;
-                }
-                else
-                {
-                    model.isSelect=YES;
-                }
-                
-            }
-        }
     }
     else{
         item.title = @"编辑";
-        for (int i=0; i<_carDataArrList.count; i++) {
-            NSArray *list = [_carDataArrList objectAtIndex:i];
-            for (int j = 0; j<list.count-1; j++) {
-                ZYShoppingCarModel *model = [list objectAtIndex:j];
-                model.isSelect = YES;
-            }
-        }
-        
-        
     }
-    
-    _endView.isEdit = self.isEdit;
-    [_vm pitchOn:_carDataArrList];
-    [_tableView reloadData];
+    [self.viewModel edits:self.isEdit];
+    self.endView.isEdit = self.isEdit;
+    [self.viewModel pitchOn];
+    [self.tableView reloadData];
 }
 - (void) previousButtonIsClicked:(id)sender
 {
@@ -371,4 +321,34 @@
 }
 
 
+//绑定viewModel
+- (void)bindViewModel:(id)viewModel {
+    self.viewModel = viewModel;
+    @weakify(self);
+    //监听价格变化
+    [[RACObserve(self.viewModel,price) ignore:nil] subscribeNext:^(id  _Nullable x) {
+        @strongify(self);
+        NSArray *lists = [self.endView.Lab.text componentsSeparatedByString:@"￥"];
+        self.endView.Lab.text = [NSString stringWithFormat:@"%@%@",lists[0],x];
+    }];
+}
+
+/**
+ 请求网络数据 绑定数据
+ */
+- (void)setupBinding {
+    @weakify(self);
+    [self.viewModel getShopData:^(NSArray * _Nonnull commonArry, NSArray * _Nonnull kuajingArry) {
+            @strongify(self);
+            [self.tableView reloadData];
+    }];
+    
+}
+
+/**
+ 设置数据回调，点击事件处理
+ */
+- (void)setupData{
+    
+}
 @end

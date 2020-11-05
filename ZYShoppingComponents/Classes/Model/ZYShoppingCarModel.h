@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "ZYCommodityModel.h"
-#import "ZYShoppingCarViewModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @class ZYShoppingCarModel;
@@ -24,8 +23,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 @property(nonatomic,assign)NSInteger type;
-
-@property(nonatomic,weak)ZYShoppingCarViewModel *vm;
 @end
 
 NS_ASSUME_NONNULL_END

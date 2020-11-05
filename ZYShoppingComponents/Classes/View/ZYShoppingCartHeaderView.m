@@ -46,19 +46,7 @@
     UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(CGRectGetMaxX(bt.frame)+15, 0, 90,40)];
     lab.textColor=[UIColor colorWithHexString:@"666666"];
     lab.font=[UIFont systemFontOfSize:16];
-    
-    
     NSArray *list  = [self.carDataArrList objectAtIndex:_section];
-    
-//    if (list.count<=1) {
-//        self.hidden= YES;
-//    }
-//    else
-//    {
-//        self.hidden = NO;
-//    }
-//
-    
 
     
     NSMutableDictionary *dic = [list lastObject];
@@ -92,8 +80,6 @@
     
     if (dicType ==1) {
         lab.text=@"商品标题1";
-        
-        
     }
     else if (dicType ==2)
     {
